@@ -49,6 +49,21 @@
                 </div>
             </div>
         </div>
+        <div id="get_cities_container" class="col-12 <?= !empty($isFullWidth) ? 'col-lg-12' : 'col-lg-4'; ?> m-b-15 <?= (!empty($cities)) ? '' : 'display-none'; ?>">
+            <select id="select_cities" name="city_id" class="select2 form-control">
+                <option value=""><?= trans('city'); ?></option>
+                <?php if (!empty($cities)):
+                    foreach ($cities as $item):
+                        if (!empty($cityId)): ?>
+                            <option value="<?= $item->id; ?>" <?= $item->id == $cityId ? 'selected' : ''; ?>><?= esc($item->name); ?></option>
+                        <?php else: ?>
+                            <option value="<?= $item->id; ?>"><?= esc($item->name); ?></option>
+                        <?php endif;
+                    endforeach;
+                endif; ?>
+            </select>
+        </div>
     <?php endif;
 endif; ?>
+
 

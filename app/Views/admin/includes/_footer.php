@@ -1,9 +1,7 @@
 </section>
 </div>
 <footer class="main-footer">
-    <div class="pull-right hidden-xs">
-        <b style="font-weight: 600;">Version</b> 2.5
-    </div>
+   
     <strong style="font-weight: 600;"><?= esc($baseSettings->copyright); ?></strong>
 </footer>
 </div>

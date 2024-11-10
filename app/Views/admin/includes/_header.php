@@ -203,7 +203,7 @@
                     <li class="nav-homepage-manager">
                         <a href="<?= adminUrl('homepage-manager'); ?>"><i class="fa fa-clone"></i><span><?= trans("homepage_manager"); ?></span></a>
                     </li>
-                <?php endif;
+                <!--   <?php endif;
                 if (hasPermission('orders')):?>
                     <li class="header"><?= trans("orders"); ?></li>
                     <li class="treeview<?php isAdminNavActive(['orders', 'transactions', 'order-details']); ?>">
@@ -213,23 +213,23 @@
                             <li class="nav-transactions"><a href="<?= adminUrl('transactions'); ?>"> <?= trans("transactions"); ?></a></li>
                         </ul>
                     </li>
-                <?php endif;
-                if (hasPermission('digital_sales')):?>
-                    <li class="nav-digital-sales">
-                        <a href="<?= adminUrl('digital-sales'); ?>"><i class="fa fa-shopping-bag"></i><span><?= trans("digital_sales"); ?></span></a>
+               <?php endif;
+                    if (hasPermission('digital_sales')):?>
+                   <li class="nav-digital-sales">
+                       <a href="<?= adminUrl('digital-sales'); ?>"><i class="fa fa-shopping-bag"></i><span><?= trans("digital_sales"); ?></span></a>
                     </li>
-                <?php endif;
+                <?php endif; 
                 if (hasPermission('refund_requests')):?>
                     <li class="nav-refund-requests">
                         <a href="<?= adminUrl('refund-requests'); ?>"><i class="fa fa-flag"></i><span><?= trans("refund_requests"); ?></span></a>
-                    </li>
-                <?php endif;
+                    </li> -->
+                <?php endif; 
                 if (hasPermission('products')):?>
                     <li class="header"><?= trans("products"); ?></li>
                     <li class="treeview<?php isAdminNavActive(['products']); ?>">
-                        <a href="#"><i class="fa fa-shopping-basket angle-left" aria-hidden="true"></i><span><?= trans("products"); ?></span><span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span></a>
+                        <a href="#"><i class="fa fa-shopping-basket angle-left" aria-hidden="true"></i><span><?= trans("products"); ?>/ Services</span><span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span></a>
                         <ul class="treeview-menu">
-                            <li class="<?= inputGet('list') == 'all' || empty(inputGet('list')) ? 'active' : ''; ?>"><a href="<?= adminUrl('products?list=all'); ?>"> <?= trans("products"); ?></a></li>
+                            <li class="<?= inputGet('list') == 'all' || empty(inputGet('list')) ? 'active' : ''; ?>"><a href="<?= adminUrl('products?list=all'); ?>"> <?= trans("products"); ?>/ Services</a></li>
                             <li class="<?= inputGet('list') == 'special' ? 'active' : ''; ?>"><a href="<?= adminUrl('products?list=special'); ?>"> <?= trans("special_offers"); ?></a></li>
                             <?php if (!empty($generalSettings->approve_after_editing)): ?>
                                 <li class="<?= inputGet('list') == 'edited' ? 'active' : ''; ?>"><a href="<?= adminUrl('products?list=edited'); ?>"> <?= trans("edited_products"); ?></a></li>
@@ -287,7 +287,7 @@
                             <li class="nav-bank-transfer-reports"><a href="<?= adminUrl('bank-transfer-reports'); ?>"> <?= trans("bank_transfer_reports"); ?></a></li>
                         </ul>
                     </li>
-                <?php endif;
+        <!--        <?php endif;
                 if (hasPermission('earnings')):?>
                     <li class="treeview<?php isAdminNavActive(['earnings', 'seller-balances', 'update-seller-balance']); ?>">
                         <a href="#"><i class="fa fa-money" aria-hidden="true"></i><span><?= trans("earnings"); ?></span><span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span></a>
@@ -305,7 +305,7 @@
                             <li class="nav-payout-requests"><a href="<?= adminUrl('payout-requests'); ?>"> <?= trans("payout_requests"); ?></a></li>
                             <li class="nav-payout-settings"><a href="<?= adminUrl('payout-settings'); ?>"> <?= trans("payout_settings"); ?></a></li>
                         </ul>
-                    </li>
+                    </li> -->
                 <?php endif;
                 if (hasPermission('pages') || hasPermission('blog') || hasPermission('location')):?>
                     <li class="header"><?= trans("content"); ?></li>
@@ -434,7 +434,7 @@
                     <li class="nav-newsletter">
                         <a href="<?= adminUrl('newsletter'); ?>"><i class="fa fa-envelope-o" aria-hidden="true"></i><span><?= trans("newsletter"); ?></span></a>
                     </li>
-                <?php endif;
+           <!--     <?php endif;
                 if (hasPermission('general_settings')):
                     $showMtTools = true; ?>
                     <li class="nav-affiliate-program">
@@ -446,7 +446,7 @@
                     <?php if (hasPermission('preferences')): ?>
                         <li class="nav-preferences">
                             <a href="<?= adminUrl('preferences'); ?>"><i class="fa fa-check-square-o"></i><span><?= trans("preferences"); ?></span></a>
-                        </li>
+                        </li>   -->
                     <?php endif;
                     if (hasPermission('general_settings') || hasPermission('product_settings') || hasPermission('payment_settings')): ?>
                         <li class="treeview<?php isAdminNavActive(['general-settings', 'language-settings', 'social-login', 'update-language', 'edit-translations', 'email-settings', 'visual-settings', 'font-settings', 'route-settings',
@@ -456,9 +456,9 @@
                                 <?php if (hasPermission('general_settings')) : ?>
                                     <li class="nav-general-settings"><a href="<?= adminUrl('general-settings'); ?>"> <?= trans("general_settings"); ?></a></li>
                                     <li class="nav-language-settings"><a href="<?= adminUrl('language-settings'); ?>"> <?= trans("language_settings"); ?></a></li>
-                                <?php endif;
+                              <!--  <?php endif;
                                 if (hasPermission('product_settings')): ?>
-                                    <li class="nav-product-settings"><a href="<?= adminUrl('product-settings'); ?>"> <?= trans("product_settings"); ?></a></li>
+                                    <li class="nav-product-settings"><a href="<?= adminUrl('product-settings'); ?>"> <?= trans("product_settings"); ?></a></li> -->
                                 <?php endif;
                                 if (hasPermission('payment_settings')):?>
                                     <li class="nav-payment-settings"><a href="<?= adminUrl('payment-settings'); ?>"> <?= trans("payment_settings"); ?></a></li>

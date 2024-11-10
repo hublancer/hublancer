@@ -29,7 +29,7 @@
                             <div class="circular-spinner-inline"></div>
                         <?php endif; ?>
                     </h3>
-                    <a href="<?= adminUrl('products'); ?>"><p><?= trans("products"); ?></p></a>
+                    <a href="<?= adminUrl('products'); ?>"><p><?= trans("products"); ?>/ Services</p></a>
                 </div>
                 <div class="icon">
                     <a href="<?= adminUrl('products'); ?>"><i class="fa fa-shopping-basket"></i></a>
@@ -47,7 +47,7 @@
                         <?php endif; ?>
                     </h3>
                     <a href="<?= adminUrl('products'); ?>?list=pending">
-                        <p><?= trans("pending_products"); ?></p>
+                        <p><?= trans("pending_products"); ?>/ Services</p>
                     </a>
                 </div>
                 <div class="icon">
@@ -182,7 +182,7 @@ if (hasPermission('products')): ?>
         <div class="col-lg-6 col-sm-12 col-xs-12">
             <div class="box box-primary box-sm">
                 <div class="box-header with-border">
-                    <h3 class="box-title"><?= trans("latest_products"); ?></h3>
+                    <h3 class="box-title"><?= trans("latest_products"); ?>/ Services</h3>
                     <div class="box-tools pull-right">
                         <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
                         <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
@@ -231,7 +231,7 @@ if (hasPermission('products')): ?>
         <div class="col-lg-6 col-sm-12 col-xs-12">
             <div class="box box-primary box-sm">
                 <div class="box-header with-border">
-                    <h3 class="box-title"><?= trans("latest_pending_products"); ?></h3>
+                    <h3 class="box-title"><?= trans("latest_pending_products"); ?>/ Services</h3>
                     <div class="box-tools pull-right">
                         <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
                         <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>

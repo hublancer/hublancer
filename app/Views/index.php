@@ -1,16 +1,30 @@
-<div class="section-slider">
+ <div class="section-slider">
     <?php if (!empty($sliderItems) && $generalSettings->slider_status == 1):
         echo view('partials/_main_slider');
-    endif; ?>
-</div>
-<div id="wrapper" class="index-wrapper">
+    endif; ?> 
+</div>  
     <div class="container">
-        <div class="row">
+        <div class="row">   
+        
+<button type="button" data-toggle="modal" data-target="#locationModal" class="nav-link btn-modal-location button-link btn-modal-location-header display-flex align-items-center" aria-label="location-modal">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="#888888">
+<path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+</svg>&nbsp;<?= !empty($baseVars->defaultLocationInput) ? $baseVars->defaultLocationInput : trans("location"); ?>
+</button>      
+        <div class="top-search-bar">
+<form action="<?= generateUrl('products'); ?>" method="get" id="form_validate_search" class="form_search_main">
+<input type="text" name="search" maxlength="300" pattern=".*\S+.*" id="input_search_main" class="form-control input-search" placeholder="<?= trans("search_products_categories_brands"); ?>" required autocomplete="off">
+<button class="btn btn-default btn-search" aria-label="search"><i class="icon-search"></i></button>
+<div id="response_search_results" class="search-results-ajax mds-scrollbar"></div>
+</form>
+</div> 
+<br>
             <h1 class="index-title"><?= esc($baseSettings->site_title); ?></h1>
             <?php if (countItems($featuredCategories) > 0 && $generalSettings->featured_categories == 1):
-                echo view('partials/_featured_categories');
+               echo view('product/_index_banners', ['bannerLocation' => 'featured_categories']);
+              echo view('partials/_featured_categories');
             endif;
-            echo view('product/_index_banners', ['bannerLocation' => 'featured_categories']);
+           
             echo view('partials/_ad_spaces', ['adSpace' => 'index_1', 'class' => 'mb-3']);
             echo view('product/_special_offers', ['specialOffers' => $specialOffers]);
             echo view("product/_index_banners", ['bannerLocation' => 'special_offers']);
@@ -40,8 +54,9 @@
                 </div>
             <?php endif;
             echo view('product/_index_banners', ['bannerLocation' => 'new_arrivals']);
+            echo view('partials/_ad_spaces', ['adSpace' => 'index_2', 'class' => 'mb-3']);
             echo view('product/_index_category_products', ['indexCategories' => $indexCategories]);
-            echo view('partials/_ad_spaces', ['adSpace' => 'index_2', 'class' => 'mb-3']); ?>
+            ?>
 
             <?php if ($productSettings->brand_status == 1 && !empty($brands)): ?>
                 <div class="col-12 section section-blog m-0">
