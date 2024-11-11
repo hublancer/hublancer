@@ -5,23 +5,116 @@
 </div>  
     <div class="container">
         <div class="row">   
-        
-<button type="button" data-toggle="modal" data-target="#locationModal" class="btn bg-white" aria-label="location-modal">
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="#888888">
-<path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-</svg>&nbsp;<?= !empty($baseVars->defaultLocationInput) ? $baseVars->defaultLocationInput : trans("location"); ?>
-</button>      
-        <div class="top-search-bar">
-<form action="<?= generateUrl('products'); ?>" method="get" id="form_validate_search" class="form_search_main">
-<input type="text" name="search" maxlength="300" pattern=".*\S+.*" id="input_search_main" class="form-control input-search" placeholder="<?= trans("search_products_categories_brands"); ?>" required autocomplete="off">
-<button class="btn btn-default btn-search" aria-label="search"><i class="icon-search"></i></button>
-<div id="response_search_results" class="search-results-ajax mds-scrollbar"></div>
-</form>
-</div> 
+       
+        <div class="top-search-bar d-flex align-items-center justify-content-around">
+  <!-- Location Button -->
+  <button type="button" data-toggle="modal" data-target="#locationModal" class="btn location-btn" aria-label="location-modal">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="#ff5b5b">
+      <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+    </svg>&nbsp;<?= !empty($baseVars->defaultLocationInput) ? $baseVars->defaultLocationInput : trans("location"); ?>
+  </button>
+
+  <!-- Category Dropdown -->
+  <select name="category" id="categoryDropdown" class="category-dropdown" onchange="updateSearchFormAction(this)">
+    <option value=""><?= trans("select_category"); ?></option>
+    <?php foreach ($parentCategories as $category): ?>
+      <?php if ($category->show_on_main_menu == 1): ?>
+        <option value="<?= $category->slug; ?>"><?= getCategoryName($category, $activeLang->id); ?></option>
+      <?php endif; ?>
+    <?php endforeach; ?>
+  </select>
+
+  <!-- Search Form -->
+  <form action="<?= generateUrl('products'); ?>" method="get" id="form_validate_search" class="form_search_main">
+  
+    <input type="text" name="search" maxlength="300" pattern=".*\S+.*" id="input_search_main" class="form-control input-search" placeholder="<?= trans("search_products_categories_brands"); ?>" required autocomplete="off">
+    <button class="btn btn-search" aria-label="search" style="padding-top:30px;">
+     <i class="icon-search"></i>
+    </button>
+  </form>
+  
+</div>
+<div class="header-top">
+<?php   echo view('product/_index_banners', ['bannerLocation' => 'featured_categories']); ?>
+        </div>
+<script>
+  // Function to dynamically update the form action based on the selected category
+  function updateSearchFormAction(selectElement) {
+    const form = document.getElementById('form_validate_search');
+    const categorySlug = selectElement.value; // Get selected category slug
+    const searchQuery = document.getElementById('input_search_main').value;
+
+    // Update form action based on category slug
+    if (categorySlug) {
+      form.action = '<?= base_url(); ?>/' + categorySlug + '?search=' + searchQuery;
+    } else {
+      form.action = '<?= generateUrl('products'); ?>?search=' + searchQuery;
+    }
+  }
+</script>
+
+<!-- Custom CSS for styling -->
+<style>
+  /* Apply same background color to both .top-search-bar and .header-top */
+.top-search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #32cd32; /* Same green background */
+  padding-left: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+
+}
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #32cd32; /* Same green background */
+  padding: 10px;
+  
+}
+/* Custom styles for the top-search-bar */
+
+
+.location-btn,
+.category-dropdown,
+.form-control.input-search,
+.btn-search {
+  background-color: white;
+  color: #888;
+  font-size: 14px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+.category-dropdown {
+  width: 250px;
+}
+
+.form-control.input-search {
+  width: 500px;
+}
+
+/* Ensure header content is centered */
+.header-top {
+  justify-content: center;
+}
+
+/* Optional: If you want to add some spacing between elements in .header-top */
+.header-top {
+  gap: 20px; /* Adjust the gap as needed */
+}
+
+
+</style>
+
+
 <br>
             <h1 class="index-title"><?= esc($baseSettings->site_title); ?></h1>
             <?php if (countItems($featuredCategories) > 0 && $generalSettings->featured_categories == 1):
-               echo view('product/_index_banners', ['bannerLocation' => 'featured_categories']);
+             
               echo view('partials/_featured_categories');
             endif;
            
