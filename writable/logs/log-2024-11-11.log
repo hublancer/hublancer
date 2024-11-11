@@ -1,0 +1,1407 @@
+INFO - 2024-11-11 08:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 14:59:33 --> CSRF token verified.
+INFO - 2024-11-11 09:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-11 15:02:07 --> ParseError: syntax error, unexpected token "endif", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 124.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-11 15:02:08 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(14.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(14.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(14680064)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected token "endif", expecting end of file
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-11 10:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-11 15:02:31 --> ParseError: syntax error, unexpected token "endif", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 124.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-11 15:02:32 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(16.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(16.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(16777216)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected token "endif", expecting end of file
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-11 10:03:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-11 15:03:04 --> ParseError: syntax error, unexpected token "else", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 239.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-11 15:03:04 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected token "else", expecting end of file
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-11 10:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-11 15:03:48 --> ParseError: syntax error, unexpected token "endif", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 245.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-11 15:03:48 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected token "endif", expecting end of file
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-11 10:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:04:03 --> CSRF token verified.
+INFO - 2024-11-11 10:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-11 15:04:05 --> ErrorException: Attempt to read property "slug" on null
+[Method: GET, Route: manifest.json]
+in APPPATH\Views\partials\_header.php on line 161.
+ 1 APPPATH\Views\partials\_header.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "slug" on null', 'C:\\xampp\\htdocs\\hublancer\\app\\Views\\partials\\_header.php', 161)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\hublancer\\app\\Views\\partials\\_header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 5 APPPATH\Controllers\HomeController.php(1137): view('partials/_header', [...])
+ 6 APPPATH\Controllers\HomeController.php(217): App\Controllers\HomeController->error404()
+ 7 APPPATH\Controllers\HomeController.php(81): App\Controllers\HomeController->product('manifest.json')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->any('manifest.json')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-11 10:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-11 15:04:51 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 427.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-11 15:04:51 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-11 10:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-11 15:06:20 --> ParseError: syntax error, unexpected token "endif", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 98.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-11 15:06:20 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected token "endif", expecting end of file
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-11 10:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-11 15:06:55 --> ParseError: syntax error, unexpected token "endif", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 98.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-11 15:06:55 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected token "endif", expecting end of file
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-11 10:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-11 15:07:31 --> ParseError: syntax error, unexpected token "endif", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 91.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-11 15:07:31 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected token "endif", expecting end of file
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-11 10:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-11 15:07:59 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 397.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-11 15:07:59 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-11 10:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-11 15:08:27 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 399.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-11 15:08:28 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-11 10:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-11 15:09:17 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 399.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-11 15:09:17 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-11 10:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-11 15:21:10 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 400.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-11 15:21:10 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-11 10:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:22:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:22:02 --> CSRF token verified.
+INFO - 2024-11-11 10:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-11 15:22:16 --> ParseError: syntax error, unexpected token "endif", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 124.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-11 15:22:17 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected token "endif", expecting end of file
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-11 10:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-11 15:22:35 --> ParseError: syntax error, unexpected token "else", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 240.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-11 15:22:35 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected token "else", expecting end of file
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-11 10:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:23:23 --> CSRF token verified.
+INFO - 2024-11-11 10:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:31:18 --> CSRF token verified.
+INFO - 2024-11-11 10:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:31:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:31:58 --> CSRF token verified.
+INFO - 2024-11-11 10:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:32:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:32:58 --> CSRF token verified.
+INFO - 2024-11-11 10:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:34:22 --> CSRF token verified.
+INFO - 2024-11-11 10:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-11 15:35:17 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 234.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-11 15:35:17 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected token "endforeach", expecting end of file
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-11 10:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:36:02 --> CSRF token verified.
+INFO - 2024-11-11 10:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:36:04 --> CSRF token verified.
+INFO - 2024-11-11 10:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:36:11 --> CSRF token verified.
+INFO - 2024-11-11 10:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:36:59 --> CSRF token verified.
+INFO - 2024-11-11 10:37:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:37:35 --> CSRF token verified.
+INFO - 2024-11-11 10:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:38:01 --> CSRF token verified.
+INFO - 2024-11-11 10:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:45:27 --> CSRF token verified.
+INFO - 2024-11-11 10:45:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:47:09 --> CSRF token verified.
+INFO - 2024-11-11 10:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:47:50 --> CSRF token verified.
+INFO - 2024-11-11 10:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:48:22 --> CSRF token verified.
+INFO - 2024-11-11 10:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:49:38 --> CSRF token verified.
+INFO - 2024-11-11 10:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:51:06 --> CSRF token verified.
+INFO - 2024-11-11 10:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:51:47 --> CSRF token verified.
+INFO - 2024-11-11 10:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:52:12 --> CSRF token verified.
+INFO - 2024-11-11 10:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:52:53 --> CSRF token verified.
+INFO - 2024-11-11 10:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:53:38 --> CSRF token verified.
+INFO - 2024-11-11 10:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:54:02 --> CSRF token verified.
+INFO - 2024-11-11 10:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:58:21 --> CSRF token verified.
+INFO - 2024-11-11 10:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:59:00 --> CSRF token verified.
+INFO - 2024-11-11 10:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:01:32 --> CSRF token verified.
+INFO - 2024-11-11 11:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:02:04 --> CSRF token verified.
+INFO - 2024-11-11 11:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:02:24 --> CSRF token verified.
+INFO - 2024-11-11 11:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:02:54 --> CSRF token verified.
+INFO - 2024-11-11 11:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:03:52 --> CSRF token verified.
+INFO - 2024-11-11 11:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:04:36 --> CSRF token verified.
+INFO - 2024-11-11 11:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:05:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:05:14 --> CSRF token verified.
+INFO - 2024-11-11 11:05:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:05:24 --> CSRF token verified.
+INFO - 2024-11-11 11:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:05:33 --> CSRF token verified.
+INFO - 2024-11-11 11:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:05:40 --> CSRF token verified.
+INFO - 2024-11-11 11:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:05:47 --> CSRF token verified.
+INFO - 2024-11-11 11:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:05:48 --> CSRF token verified.
+INFO - 2024-11-11 11:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:05:48 --> CSRF token verified.
+INFO - 2024-11-11 11:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:06:01 --> CSRF token verified.
+INFO - 2024-11-11 11:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:07:00 --> CSRF token verified.
+INFO - 2024-11-11 11:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:07:07 --> CSRF token verified.
+INFO - 2024-11-11 11:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:16:24 --> CSRF token verified.
+INFO - 2024-11-11 11:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:16:55 --> CSRF token verified.
+INFO - 2024-11-11 11:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:17:28 --> CSRF token verified.
+INFO - 2024-11-11 11:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:18:06 --> CSRF token verified.
+INFO - 2024-11-11 11:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:18:12 --> CSRF token verified.
+INFO - 2024-11-11 11:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:18:23 --> CSRF token verified.
+INFO - 2024-11-11 11:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:18:53 --> CSRF token verified.
+INFO - 2024-11-11 11:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:19:53 --> CSRF token verified.
+INFO - 2024-11-11 11:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:20:18 --> CSRF token verified.
+INFO - 2024-11-11 11:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:20:57 --> CSRF token verified.
+INFO - 2024-11-11 11:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:21:25 --> CSRF token verified.
+INFO - 2024-11-11 11:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:21:28 --> CSRF token verified.
+INFO - 2024-11-11 11:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:21:34 --> CSRF token verified.
+INFO - 2024-11-11 11:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:21:47 --> CSRF token verified.
+INFO - 2024-11-11 11:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:24:12 --> CSRF token verified.
+INFO - 2024-11-11 11:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:26:11 --> CSRF token verified.
+INFO - 2024-11-11 11:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:26:14 --> CSRF token verified.
+INFO - 2024-11-11 11:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:26:21 --> CSRF token verified.
+INFO - 2024-11-11 11:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:27:53 --> CSRF token verified.
+INFO - 2024-11-11 11:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:28:34 --> CSRF token verified.
+INFO - 2024-11-11 11:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:29:58 --> CSRF token verified.
+INFO - 2024-11-11 11:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:32:48 --> CSRF token verified.
+INFO - 2024-11-11 11:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:34:09 --> CSRF token verified.
+INFO - 2024-11-11 11:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:34:59 --> CSRF token verified.
+INFO - 2024-11-11 11:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:35:37 --> CSRF token verified.
+INFO - 2024-11-11 11:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:38:14 --> CSRF token verified.
+INFO - 2024-11-11 11:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:38:46 --> CSRF token verified.
+INFO - 2024-11-11 11:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:39:47 --> CSRF token verified.
+INFO - 2024-11-11 11:39:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:40:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:40:14 --> CSRF token verified.
+INFO - 2024-11-11 11:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-11 16:41:42 --> ParseError: syntax error, unexpected token "else", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 225.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-11 16:41:43 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(16.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(16.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(16777216)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected token "else", expecting end of file
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-11 11:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-11 16:42:41 --> ParseError: syntax error, unexpected token "else", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 225.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-11 16:42:41 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected token "else", expecting end of file
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-11 11:43:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-11 16:43:04 --> ParseError: syntax error, unexpected token "else", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 225.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-11 16:43:04 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected token "else", expecting end of file
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-11 11:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-11 16:43:34 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 419.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-11 16:43:34 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-11 11:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:44:20 --> CSRF token verified.
+INFO - 2024-11-11 11:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:46:19 --> CSRF token verified.
+INFO - 2024-11-11 11:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:46:29 --> CSRF token verified.
+INFO - 2024-11-11 11:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:47:40 --> CSRF token verified.
+INFO - 2024-11-11 11:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:49:17 --> CSRF token verified.
+INFO - 2024-11-11 11:49:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:49:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:49:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:49:24 --> CSRF token verified.
+INFO - 2024-11-11 11:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:49:33 --> CSRF token verified.
+INFO - 2024-11-11 11:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:49:35 --> CSRF token verified.
+INFO - 2024-11-11 11:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:49:38 --> CSRF token verified.
+INFO - 2024-11-11 11:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:49:45 --> CSRF token verified.
+INFO - 2024-11-11 11:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:49:50 --> CSRF token verified.
+INFO - 2024-11-11 11:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:50:53 --> CSRF token verified.
+INFO - 2024-11-11 11:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:52:06 --> CSRF token verified.
+INFO - 2024-11-11 11:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:52:52 --> CSRF token verified.
+INFO - 2024-11-11 11:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:58:02 --> CSRF token verified.
+INFO - 2024-11-11 11:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:58:12 --> CSRF token verified.
+INFO - 2024-11-11 11:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:58:24 --> CSRF token verified.
+INFO - 2024-11-11 11:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 11:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 17:03:08 --> CSRF token verified.
+INFO - 2024-11-11 12:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 17:03:57 --> CSRF token verified.
+INFO - 2024-11-11 12:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 17:04:23 --> CSRF token verified.
+INFO - 2024-11-11 12:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 17:06:54 --> CSRF token verified.
+INFO - 2024-11-11 12:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 17:07:46 --> CSRF token verified.
+INFO - 2024-11-11 12:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 17:08:22 --> CSRF token verified.
+INFO - 2024-11-11 12:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 17:09:14 --> CSRF token verified.
+INFO - 2024-11-11 12:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:10:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 17:10:34 --> CSRF token verified.
+INFO - 2024-11-11 12:10:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 17:11:24 --> CSRF token verified.
+INFO - 2024-11-11 12:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 17:11:52 --> CSRF token verified.
+INFO - 2024-11-11 12:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 17:13:25 --> CSRF token verified.
+INFO - 2024-11-11 12:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 17:13:32 --> CSRF token verified.
+INFO - 2024-11-11 12:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 17:13:40 --> CSRF token verified.
+INFO - 2024-11-11 12:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 17:14:05 --> CSRF token verified.
+INFO - 2024-11-11 12:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 17:14:12 --> CSRF token verified.
+INFO - 2024-11-11 12:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 17:14:42 --> CSRF token verified.
+INFO - 2024-11-11 12:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 17:15:01 --> CSRF token verified.
+INFO - 2024-11-11 12:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 17:15:11 --> CSRF token verified.
+INFO - 2024-11-11 12:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 17:15:41 --> CSRF token verified.
+INFO - 2024-11-11 12:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 17:15:45 --> CSRF token verified.
+INFO - 2024-11-11 12:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 17:15:56 --> CSRF token verified.
+INFO - 2024-11-11 12:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 17:17:43 --> CSRF token verified.
+INFO - 2024-11-11 12:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 17:18:28 --> CSRF token verified.
+INFO - 2024-11-11 12:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 17:18:52 --> CSRF token verified.
+INFO - 2024-11-11 12:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 12:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.

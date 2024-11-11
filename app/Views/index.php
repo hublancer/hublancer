@@ -6,7 +6,7 @@
     <div class="container">
         <div class="row">   
         
-<button type="button" data-toggle="modal" data-target="#locationModal" class="nav-link btn-modal-location button-link btn-modal-location-header display-flex align-items-center" aria-label="location-modal">
+<button type="button" data-toggle="modal" data-target="#locationModal" class="btn bg-white" aria-label="location-modal">
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="#888888">
 <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
 </svg>&nbsp;<?= !empty($baseVars->defaultLocationInput) ? $baseVars->defaultLocationInput : trans("location"); ?>

@@ -4,3 +4,1341 @@ INFO - 2024-11-10 07:17:19 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2024-11-10 12:17:19 --> CSRF token verified.
 INFO - 2024-11-10 07:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
 INFO - 2024-11-10 07:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 07:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 07:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 07:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 12:52:46 --> CSRF token verified.
+INFO - 2024-11-10 07:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 07:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 07:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 07:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 12:59:17 --> CSRF token verified.
+INFO - 2024-11-10 07:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 07:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 07:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 08:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 08:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 08:00:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 13:00:53 --> CSRF token verified.
+INFO - 2024-11-10 08:00:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 08:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 08:01:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 08:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 13:01:50 --> CSRF token verified.
+INFO - 2024-11-10 08:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 08:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 08:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 08:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 08:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 13:02:15 --> CSRF token verified.
+INFO - 2024-11-10 08:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 08:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 08:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 08:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-10 13:08:45 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 633.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-10 08:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-10 13:08:46 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 633.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 13:08:46 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-10 08:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-10 13:12:19 --> ParseError: syntax error, unexpected token "endif", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 267.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 13:12:19 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected token "endif", expecting end of file
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-10 08:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-10 13:12:44 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 459.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 13:12:44 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-10 08:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-10 13:13:20 --> ParseError: syntax error, unexpected token "endif", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 399.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 13:13:21 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected token "endif", expecting end of file
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-10 08:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-10 13:13:50 --> ParseError: syntax error, unexpected token "endif", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 400.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 13:13:50 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected token "endif", expecting end of file
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-10 08:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-10 13:14:12 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 460.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 13:14:12 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-10 08:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-10 13:14:26 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 460.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 13:14:26 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-10 08:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-10 13:14:53 --> ParseError: syntax error, unexpected token "endif", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 399.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 13:14:54 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected token "endif", expecting end of file
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-10 08:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-10 13:20:01 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 460.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 13:20:01 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(20.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(20.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(20971520)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-10 08:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-10 13:20:15 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 457.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 13:20:15 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-10 08:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-10 13:21:12 --> ParseError: syntax error, unexpected token "endif", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 87.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 13:21:13 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected token "endif", expecting end of file
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-10 08:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-10 13:21:39 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 436.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 13:21:39 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-10 08:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-10 13:22:02 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 436.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 13:22:02 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-10 08:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-10 13:22:54 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 436.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 13:22:55 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected end of file
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-10 09:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-10 14:38:40 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 436.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 14:38:42 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(20.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(20.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(20971520)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected end of file
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-10 09:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-10 14:39:26 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 327.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 14:39:27 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-10 09:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-10 14:39:33 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 327.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 14:39:34 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-10 09:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-10 14:40:49 --> ParseError: syntax error, unexpected token "endif", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 267.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 14:40:50 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected token "endif", expecting end of file
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-10 09:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-10 14:41:03 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 328.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 14:41:03 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-10 09:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-10 14:41:27 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 327.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 14:41:27 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-10 09:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-10 14:41:54 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 328.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 14:41:54 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-10 09:42:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-10 14:42:00 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 328.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 14:42:01 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-10 09:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 09:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 14:42:25 --> CSRF token verified.
+INFO - 2024-11-10 09:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 09:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 09:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 09:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-10 14:42:36 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 327.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 14:42:36 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-10 09:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-10 14:42:50 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 328.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 14:42:50 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-10 09:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-10 14:43:02 --> ParseError: syntax error, unexpected token "endif", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 267.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 14:43:02 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected token "endif", expecting end of file
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-10 09:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-10 14:43:14 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 459.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 14:43:14 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-10 09:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-10 14:43:26 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 460.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 14:43:26 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-10 09:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-10 14:43:39 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 458.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 14:43:39 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-10 09:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-10 14:43:51 --> ParseError: syntax error, unexpected token "endif", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 87.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 14:43:52 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected token "endif", expecting end of file
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-10 09:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-10 14:44:08 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 436.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 14:44:08 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-10 09:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 09:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 14:44:35 --> CSRF token verified.
+INFO - 2024-11-10 09:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 09:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 09:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 09:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-10 14:45:31 --> ParseError: syntax error, unexpected token "endif", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Views\partials\_header.php on line 124.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/_header', [], true)
+ 3 APPPATH\Controllers\HomeController.php(59): view('partials/_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 14:45:31 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php:140
+Stack trace:
+#0 C:\xampp\htdocs\hublancer\system\Helpers\number_helper.php(58): format_number(18.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(154): number_to_size(18.0, 2)
+#2 C:\xampp\htdocs\hublancer\app\Views\errors\html\error_exception.php(365): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(266): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hublancer\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\hublancer\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hublancer\system\Debug\Exceptions.php(164): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#8 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected token "endif", expecting end of file
+#0 C:\xampp\htdocs\hublancer\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\hublancer\system\Common.php(1169): CodeIgniter\View\View->render('partials/_heade...', Array, true)
+#2 C:\xampp\htdocs\hublancer\app\Controllers\HomeController.php(59): view('partials/_heade...', Array)
+#3 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#4 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\hublancer\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hublancer\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\hublancer\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\hublancer\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-11-10 09:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 09:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 09:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 14:45:49 --> CSRF token verified.
+INFO - 2024-11-10 09:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 09:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 10:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 10:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 15:41:04 --> CSRF token verified.
+INFO - 2024-11-10 10:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 10:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-10 15:41:11 --> CSRF token verified.

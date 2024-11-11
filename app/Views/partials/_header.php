@@ -82,6 +82,24 @@ if ($baseVars->rtl == true): ?>
 <div class="logo">
 <a href="<?= langBaseUrl(); ?>"><img src="<?= getLogo(); ?>" alt="logo" width="<?= $baseVars->logoWidth; ?>" height="<?= $baseVars->logoHeight; ?>"></a>
 </div>
+<a href="<?= langBaseUrl(); ?>" class="btn"><?= trans("home"); ?></a>
+<div class="col-left">
+<?php if (!empty($menuLinks)): ?>
+<ul class="navbar-nav clearfix">
+<?php if (!empty($menuLinks)):
+foreach ($menuLinks as $menuLink):
+if ($menuLink->location == 'top_menu'):
+$itemLink = generateMenuItemUrl($menuLink);
+if (!empty($menuLink->page_default_name)):
+$itemLink = generateUrl($menuLink->page_default_name);
+endif; ?>
+<li class="nav-item"><a href="<?= $itemLink; ?>" class="nav-link"><?= esc($menuLink->title); ?></a></li>
+<?php endif;
+endforeach;
+endif; ?>
+</ul>
+<?php endif; ?>
+</div>
 <!-- <div class="top-search-bar">
 <form action="<?= generateUrl('products'); ?>" method="get" id="form_validate_search" class="form_search_main">
 <input type="text" name="search" maxlength="300" pattern=".*\S+.*" id="input_search_main" class="form-control input-search" placeholder="<?= trans("search_products_categories_brands"); ?>" required autocomplete="off">
@@ -107,37 +125,30 @@ if ($baseVars->rtl == true): ?>
 <li class="nav-item li-main-nav-right"><a href="<?= generateUrl('wishlist'); ?>"><i class="icon-heart-o"></i><span class="label-nav-icon"><?= trans("wishlist"); ?></span></a></li>
 <?php if (authCheck()): ?>
 <?php if ($generalSettings->multi_vendor_system == 1): ?>
-<li class="nav-item m-r-0"><a href="<?= generateDashUrl("add_product"); ?>" class="btn btn-md btn-custom btn-sell-now m-r-0"><?= trans("sell_now"); ?></a></li>
+<li class="nav-item m-r-0"><a href="<?= generateDashUrl("add_product"); ?>" class="btn btn-custom btn-sell-now rounded-pill">List Now</a></li>
 <?php endif;
 else: ?>
 <?php if ($generalSettings->multi_vendor_system == 1): ?>
 <li class="nav-item m-r-0">
-<button type="button" class="btn btn-md btn-custom btn-sell-now m-r-0" data-toggle="modal" data-target="#loginModal" aria-label="sell-now"><?= trans("sell_now"); ?></button>
+<button type="button" class="btn btn-md btn-custom btn-sell-now m-r-0 rounded-pill " data-toggle="modal" data-target="#loginModal" aria-label="sell-now">List Now</button>
 </li>
 <?php endif;
 endif; ?>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<?php 
-if (authCheck()): ?>
-<li class="nav-item dropdown profile-dropdown p-r-0">
-<button type="button" class="nav-link dropdown-toggle a-profile button-link" data-toggle="dropdown" aria-expanded="false" aria-label="select-language">
-<img src="<?= getUserAvatar(user()); ?>" alt="<?= esc(getUsername(user())); ?>" width="26" height="26">
-<?= characterLimiter(esc(getUsername(user())), 15, '..'); ?>
-<i class="icon-arrow-down"></i>
+<?php if (authCheck()): ?>
+<li class="dropdown profile-dropdown nav-item">
+<a href="#" class="dropdown-toggle image-profile-drop nav-link " data-toggle="dropdown" aria-expanded="false">
 <?php if ($baseVars->unreadMessageCount > 0): ?>
-<span class="message-notification"><?= $baseVars->unreadMessageCount; ?></span>
+<span class="message-notification message-notification-mobile"><?= $baseVars->unreadMessageCount; ?></span>
 <?php endif; ?>
-</button>
+<img src="<?= getUserAvatar(user()); ?>" alt="<?= esc(getUsername(user())); ?>" width="42" height="42" class="rounded-circle">
+<?= esc(getUsername(user())); ?>
+</a>
 <ul class="dropdown-menu">
-<?php if (hasPermission('admin_panel')): ?>
+<?php if (isAdmin()): ?>
 <li>
 <a href="<?= adminUrl(); ?>">
 <div class="icon">
-<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 256 256">
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 256 256">
 <rect width="256" height="256" fill="none"/>
 <polyline points="32 176 128 232 224 176" fill="none" stroke="#747474" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
 <polyline points="32 128 128 184 224 128" fill="none" stroke="#747474" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
@@ -151,7 +162,7 @@ if (isVendor()): ?>
 <li>
 <a href="<?= dashboardUrl(); ?>">
 <div class="icon">
-<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24">
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
 <path fill="none" stroke="#747474" stroke-width="1.5" d="M14 20.4v-5.8a.6.6 0 0 1 .6-.6h5.8a.6.6 0 0 1 .6.6v5.8a.6.6 0 0 1-.6.6h-5.8a.6.6 0 0 1-.6-.6Zm-11 0v-5.8a.6.6 0 0 1 .6-.6h5.8a.6.6 0 0 1 .6.6v5.8a.6.6 0 0 1-.6.6H3.6a.6.6 0 0 1-.6-.6Zm11-11V3.6a.6.6 0 0 1 .6-.6h5.8a.6.6 0 0 1 .6.6v5.8a.6.6 0 0 1-.6.6h-5.8a.6.6 0 0 1-.6-.6Zm-11 0V3.6a.6.6 0 0 1 .6-.6h5.8a.6.6 0 0 1 .6.6v5.8a.6.6 0 0 1-.6.6H3.6a.6.6 0 0 1-.6-.6Z"/>
 </svg>
 </div><?= trans("dashboard"); ?>
@@ -161,7 +172,7 @@ if (isVendor()): ?>
 <li>
 <a href="<?= generateProfileUrl(user()->slug); ?>">
 <div class="icon">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="19" height="19" color="#747474" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" color="#747474" fill="none">
 <path d="M6.57757 15.4816C5.1628 16.324 1.45336 18.0441 3.71266 20.1966C4.81631 21.248 6.04549 22 7.59087 22H16.4091C17.9545 22 19.1837 21.248 20.2873 20.1966C22.5466 18.0441 18.8372 16.324 17.4224 15.4816C14.1048 13.5061 9.89519 13.5061 6.57757 15.4816Z" stroke="#747474" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M16.5 6.5C16.5 8.98528 14.4853 11 12 11C9.51472 11 7.5 8.98528 7.5 6.5C7.5 4.01472 9.51472 2 12 2C14.4853 2 16.5 4.01472 16.5 6.5Z" stroke="#747474" stroke-width="1.5"/>
 </svg>
@@ -208,7 +219,7 @@ if (isVendor()): ?>
 </svg>
 </div><?= trans("messages"); ?>&nbsp;
 <?php if ($baseVars->unreadMessageCount > 0): ?>
-(<?= $baseVars->unreadMessageCount; ?>)
+<span class="span-message-count">(<?= $baseVars->unreadMessageCount; ?>)</span>
 <?php endif; ?>
 </a>
 </li>
@@ -226,7 +237,7 @@ d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32
 <form action="<?= base_url('logout'); ?>" method="post" class="form-logout">
 <?= csrf_field(); ?>
 <input type="hidden" name="back_url" value="<?= getCurrentUrl(); ?>">
-<button type="submit" class="btn-logout" aria-label="btn-logout">
+<button type="submit" class="btn-logout" aria-label="btn-logout-mobile">
 <div class="icon">
 <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="#747474" viewBox="0 0 256 256">
 <path d="M120,216a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V40a8,8,0,0,1,8-8h64a8,8,0,0,1,0,16H56V208h56A8,8,0,0,1,120,216Zm109.66-93.66-40-40a8,8,0,0,0-11.32,11.32L204.69,120H112a8,8,0,0,0,0,16h92.69l-26.35,26.34a8,8,0,0,0,11.32,11.32l40-40A8,8,0,0,0,229.66,122.34Z"></path>
@@ -236,19 +247,21 @@ d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32
 </form>
 </li>
 </ul>
+</li> <?php endif; ?>
+<?php 
+if (!authCheck()): ?>
+<li class="nav-item m-r-0">
+<button type="button" data-toggle="modal" data-target="#loginModal" class="btn  btn-outline-success rounded-pill" aria-label="nav-login-menu"> Login / Signup</button><i class="icon-user color-success"></i>
 </li>
-<?php else: ?>
-<li class="nav-item">
-<button type="button" data-toggle="modal" data-target="#loginModal" class="nav-link button-link" aria-label="login"><?= trans("login"); ?></button>
-<span class="auth-sep">/</span>
-<a href="<?= generateUrl('register'); ?>" class="nav-link"><?= trans("register"); ?></a>
-</li>
+<!-- <li class="nav-item"><a href="<?= generateUrl('register'); ?>" class="nav-link"><?= trans("register"); ?></a></li> -->
 <?php endif; ?>
 </ul>
+
 </div>
 </div>
 </div>
 </div>
+
 </div>
 </div>
 </div>
